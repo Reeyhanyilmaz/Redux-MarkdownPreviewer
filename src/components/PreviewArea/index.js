@@ -2,7 +2,7 @@ import React from 'react'
 
 function PreviewArea() {
   return (
-    <div>PreviewArea</div>
+    <div className='border-2 basis-1/2'>PreviewArea</div>
   )
 }
 

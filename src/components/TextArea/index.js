@@ -2,7 +2,7 @@ import React from 'react'
 
 function TextArea() {
   return (
-    <div>TextArea</div>
+    <div className='border-2 basis-1/2'>TextArea</div>
   )
 }
 

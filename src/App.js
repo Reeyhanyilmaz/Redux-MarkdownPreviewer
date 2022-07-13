@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './components/Header';
-import TextArea from './components/TextArea';
-import PreviewArea from './components/PreviewArea';
+import "./App.css";
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <TextArea />
-      <PreviewArea />
+      <div className="max-w-7xl bg-yellow-300">
+        <Header />
+        <Body />
+      </div>
     </div>
   );
 }
