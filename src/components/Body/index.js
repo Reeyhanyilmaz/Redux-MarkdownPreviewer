@@ -4,11 +4,11 @@ import TextArea from '../TextArea'
 
 function index() {
   return (
-    <div className='flex flex-row h-96'> 
+    <div className='flex flex-row h-96 p-4 gap-4'> 
         <TextArea />
         <PreviewArea />
     </div>
   )
 }
 
-export default index
+export default index;
