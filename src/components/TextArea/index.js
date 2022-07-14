@@ -5,7 +5,6 @@ import { setMarkdownText } from '../../redux/previewerSlice';
 function TextArea() {
   const dispatch = useDispatch();
   const markdownText = useSelector(state => state.previewer.markdownText);
-  console.log('markdownText', markdownText);
 
   return (
     <textarea placeholder='Please write anything here...' className='border-2 basis-1/2 p-3 border-none rounded-lg' value={markdownText} onChange={(e) => dispatch(setMarkdownText(e.target.value))}/>  

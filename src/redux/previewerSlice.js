@@ -43,12 +43,11 @@ Numbered list-2:
             state.markdownText = action.payload;
             // localStorage.setItem("markdownText", JSON.stringify(state.markdownText));
         },
-        setButtonText: (state, action) => {
+        setButtonText: (state) => {
             state.markdownText === state.buttonText ? (state.markdownText = "") : (state.markdownText = state.buttonText);
         },
     },
 });
 
 export const { setMarkdownText , setButtonText } = previewerSlice.actions;
-console.log('createSlice.reducer ', createSlice.reducer);
 export default previewerSlice.reducer;
