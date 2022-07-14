@@ -8,7 +8,7 @@ function TextArea() {
   console.log('markdownText', markdownText);
 
   return (
-    <textarea className='border-2 basis-1/2 p-3' value={markdownText} onChange={(e) => dispatch(setMarkdownText(e.target.value))}/>
+    <textarea placeholder='Please write anything here...' className='border-2 basis-1/2 p-3 border-none rounded-lg' value={markdownText} onChange={(e) => dispatch(setMarkdownText(e.target.value))}/>
   )
 }
 
